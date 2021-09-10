@@ -7,11 +7,11 @@ import json
 
 print("Bot Started...")
 
-bot = Bot("YourTokenHere")
+bot = Bot("YourtokenHere")
 
 # print(bot.get_me())
 
-updater = Updater("1906973785:AAFr1WcMqzSW1IdGvuVCYUTx3FNMMWzW3TA",use_context=True)
+updater = Updater("YourtokenHere",use_context=True)
 dispatcher = updater.dispatcher
 
 def start(update:Update, context=CallbackContext):
