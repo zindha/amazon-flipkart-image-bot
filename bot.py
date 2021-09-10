@@ -7,7 +7,7 @@ import json
 
 print("Bot Started...")
 
-bot = Bot("1906973785:AAFr1WcMqzSW1IdGvuVCYUTx3FNMMWzW3TA")
+bot = Bot("YourTokenHere")
 
 # print(bot.get_me())
 
