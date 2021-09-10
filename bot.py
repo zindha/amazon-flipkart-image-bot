@@ -24,30 +24,6 @@ def start(update:Update, context=CallbackContext):
     print("chat_id : {} and firstname : {} lastname : {}  username {}". format(chat_id, first_name, last_name , username))
     bot.sendMessage(chat_id, f'Hello {first_name} {last_name} send me message which conatins a link')
 
-    with open('app/users.txt', 'r') as UsersList:
-        UsersList= UsersList.read()
-        if not username in UsersList:
-            with open('app/users.txt', 'a') as UsersList:
-                UsersList.write(username + "\n")
-
-def countUsers(update:Update, context=CallbackContext):
-    file = open("app/users.txt","r")
-    Counter = 0
-  
-    # Reading from file
-    Content = file.read()
-    CoList = Content.split("\n")
-  
-    for i in CoList:
-        if i:
-            Counter += 1
-    
-    bot.send_message(
-        chat_id=572769491,
-        text=f'Total number of users using your bot are {Counter}'
-    )
-    file.close()
-
 def Find(string):
   
     # findall() has been used 
