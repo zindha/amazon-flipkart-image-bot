@@ -1,0 +1,4 @@
+python-telegram-bot
+selectorlib
+requests
+fake_useragent

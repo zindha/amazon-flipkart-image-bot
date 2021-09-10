@@ -1,0 +1,7 @@
+name:
+    css: '.B_NuCI'
+    type: Text
+images:
+    css: '.CXW8mj img'
+    type: Attribute
+    attribute: src
