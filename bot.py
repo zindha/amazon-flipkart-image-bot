@@ -103,7 +103,7 @@ msg_handler = MessageHandler(Filters.text, msg_function)
 # dispatcher.add_handler(cmd_handler)
 dispatcher.add_handler(contact_cmd_handler)
 dispatcher.add_handler(start_cmd_handler)
-dispatcher.add_handler(count_cmd_handler)
+# dispatcher.add_handler(count_cmd_handler)
 dispatcher.add_handler(msg_handler)
 
 
