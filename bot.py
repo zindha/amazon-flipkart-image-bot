@@ -94,17 +94,17 @@ def contact(update:Update, context=CallbackContext):
         )
         
 # cmd_handler = CommandHandler('settings', settings)
-contact_cmd_handler = CommandHandler('contact', contact)
-start_cmd_handler = CommandHandler('start', start)
-msg_handler = MessageHandler(Filters.text, msg_function)
+# contact_cmd_handler = CommandHandler('contact', contact)
+# start_cmd_handler = CommandHandler('start', start)
+# msg_handler = MessageHandler(Filters.text, msg_function)
 
 
 
 # dispatcher.add_handler(cmd_handler)
-dispatcher.add_handler(contact_cmd_handler)
-dispatcher.add_handler(start_cmd_handler)
-dispatcher.add_handler(count_cmd_handler)
-dispatcher.add_handler(msg_handler)
+# dispatcher.add_handler(contact_cmd_handler)
+# dispatcher.add_handler(start_cmd_handler)
+# dispatcher.add_handler(count_cmd_handler)
+# dispatcher.add_handler(msg_handler)
 
 
 updater.start_polling()
