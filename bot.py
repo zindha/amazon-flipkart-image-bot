@@ -95,7 +95,6 @@ def contact(update:Update, context=CallbackContext):
         
 # cmd_handler = CommandHandler('settings', settings)
 contact_cmd_handler = CommandHandler('contact', contact)
-count_cmd_handler = CommandHandler('Count_users', countUsers)
 start_cmd_handler = CommandHandler('start', start)
 msg_handler = MessageHandler(Filters.text, msg_function)
 
